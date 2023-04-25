@@ -105,11 +105,31 @@ article {
 }
 
 #card span:nth-of-type(2) {
-    font-size:small;
+    font-size: small;
     margin-left: 0px;
 }
 
 #containercard {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 992px) {
+    #article {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:992px) {
+    #navbar{
+        font-size:small;
+    }
+    .buttonmenu:nth-of-type(3){
+        font-size: small;
+    }
+    .buttonmenu {
+        width: 15%;
+        
+    }
 }
